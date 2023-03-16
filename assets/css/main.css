@@ -1,3 +1,26 @@
+@font-face {
+  font-family: proxima-nova;
+  src: url("../fonts/ProximaNova-Regular.otf");
+}
+
+@font-face {
+  font-family: proxima-nova;
+  src: url("../fonts/ProximaNova-Semibold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: proxima-nova;
+  src: url("../fonts/ProximaNova-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: akzidenz-grotesk-pro;
+  src: url("../fonts/AkzidenzGroteskPro-BoldUFC.otf");
+  font-weight: 700;
+}
+
 body {
   font-family: proxima-nova, sans-serif;
   font-size: 16px;
@@ -182,6 +205,7 @@ h4 {
 
 .overview-title {
   margin-bottom: 20px;
+  font-family: akzidenz-grotesk-pro;
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
@@ -307,6 +331,7 @@ h4 {
 .products-title {
   margin-bottom: 20px;
   text-align: right;
+  font-family: akzidenz-grotesk-pro;
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
